@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Staatliches&display=swap');
+.single-pokemon{
+    display: flex;
+    flex-direction: row;
+}
+.detailed-pokemondata{
+    position: fixed;
+    left: 38%;
+    top: 200px;
+    border: 2px solid #e7d8d8;
+    border-radius: 10px;
+}
+h3{
+    font-family: 'Alfa Slab One', cursive ;
+    cursor: pointer;
+}
+body{
+    font-family: 'Staatliches', cursive;  
+}
+.pokemon-main-container{
+    margin: 1% 0 0 11%;
+}
+.add-more-pokemons{
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 14px;
+  height: 29px;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.add-more-pokemons:active {
+    border-bottom-color: #a2a6ac;
+  }
+  
+  .add-more-pokemons:active:hover {
+    border-bottom-color: #a2a6ac;
+  }
+  
+  .add-more-pokemons:hover {
+    border-color: #a2a6ac #979aa1 #82858a;
+  }
+  
+  .add-more-pokemon:focus {
+    border-color: #e77600;
+    box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+    outline: 0;
+  }
